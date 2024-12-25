@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "lineLength": 84,
+  "lineBreakBeforeEachArgument": true,
+  "respectsExistingLineBreaks": false
+}
