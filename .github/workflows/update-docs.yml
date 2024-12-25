@@ -10,7 +10,7 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
       - name: Select proper Xcode version
-        run: xcode-select --switch /Applications/Xcode_16.1.app
+        run: sudo xcode-select --switch /Applications/Xcode_16.1.app
       - name: Run DocC
         run: >
           swift package --allow-writing-to-directory docs generate-documentation
